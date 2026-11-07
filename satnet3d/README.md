@@ -130,6 +130,8 @@ opp\_run -u Cmdenv \\
 
 Use an environment with the raw-socket permissions described above. If INET is elsewhere, replace both its library path and NED path. Configure physical FDB/VLAN entries from the selected TXT `ROUTE` records, and configure gates from its `WINDOWS` records using the matching `satelliteIndexMap` in the traffic INI. Apply these settings through the physical device’s management interface. For Our Proposal/Ground Gated, coordinate GCL changes at 0, 15, 30 and 45 s with the simulation real-time origin; open PCP7 during the 60–61 s drain phase. Best Effort gates are open. Configure link rate and buffers to match the experiment.
 
+In the configuration names and result directories, `BE` denotes the **Best Effort** scheme, `JRS-TER` denotes the **Ground Gated** scheme, and `JRS` denotes **Our Proposal** (TAPS-CLETRO).
+
 |HIL configuration|Output directory relative to `simulations/xw/`|
 |-|-|
 |HIL-BE-2TT|results/be-2tt|

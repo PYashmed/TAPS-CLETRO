@@ -1,8 +1,8 @@
-# TAPS-CLETRO
+# Fine-Grained and Time Deterministic Transmission Paradigm for Mega Low Earth Orbit Constellations with Hardware-in-the-Loop Simulation
 
-This repository is an open-source release of the code and data for the TAPS-CLETRO scheme.
+This repository is an open-source release of the code and data for the paper *Fine-Grained and Time Deterministic Transmission Paradigm for Mega Low Earth Orbit Constellations with Hardware-in-the-Loop Simulation*.
 
-本仓库用于 TAPS-CLETRO 方案的代码与数据开源。
+本仓库公开论文《Fine-Grained and Time Deterministic Transmission Paradigm for Mega Low Earth Orbit Constellations with Hardware-in-the-Loop Simulation》的代码与数据。
 
 ## Repository Structure
 

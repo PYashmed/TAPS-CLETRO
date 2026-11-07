@@ -1,0 +1,815 @@
+XW_OFFLINE_V1
+CYCLE_US 30000
+SLICE_INTERVAL_S 15
+SLICE_COUNT 4
+QUEUE_STATES 11111111 01111111
+OFFSET 10 0 1
+OFFSET 11 0 1
+ROUTE satellite[0] 6 stations[16] eth0
+ROUTE satellite[1] 6 stations[16] eth0
+ROUTE satellite[2] 6 stations[16] eth0
+ROUTE satellite[3] 6 stations[16] eth0
+ROUTE satellite[4] 6 stations[16] eth1
+ROUTE satellite[5] 2 stations[12] eth1
+ROUTE satellite[5] 5 stations[15] eth1
+ROUTE satellite[5] 11 stations[21] eth1
+ROUTE satellite[6] 1 stations[11] eth0
+ROUTE satellite[6] 4 stations[14] eth0
+ROUTE satellite[6] 10 stations[20] eth1
+ROUTE satellite[7] 1 stations[11] eth0
+ROUTE satellite[7] 4 stations[14] eth0
+ROUTE satellite[8] 1 stations[11] eth0
+ROUTE satellite[8] 4 stations[14] eth0
+ROUTE satellite[8] 9 stations[19] eth0
+ROUTE satellite[9] 1 stations[11] eth1
+ROUTE satellite[9] 4 stations[14] eth1
+ROUTE satellite[9] 9 stations[19] eth0
+ROUTE satellite[10] 6 stations[16] eth1
+ROUTE satellite[10] 9 stations[19] eth1
+ROUTE satellite[11] 2 stations[12] eth1
+ROUTE satellite[11] 5 stations[15] eth1
+ROUTE satellite[11] 11 stations[21] eth1
+ROUTE satellite[12] 10 stations[20] eth1
+ROUTE satellite[13] 3 stations[13] eth1
+ROUTE satellite[14] 1 stations[11] eth1
+ROUTE satellite[14] 4 stations[14] eth1
+ROUTE satellite[15] 6 stations[16] eth1
+ROUTE satellite[15] 9 stations[19] eth1
+ROUTE satellite[16] 2 stations[12] eth1
+ROUTE satellite[16] 5 stations[15] eth1
+ROUTE satellite[16] 11 stations[21] eth1
+ROUTE satellite[17] 7 stations[17] eth0
+ROUTE satellite[17] 10 stations[20] eth1
+ROUTE satellite[18] 7 stations[17] eth0
+ROUTE satellite[18] 8 stations[18] eth0
+ROUTE satellite[19] 3 stations[13] eth1
+ROUTE satellite[19] 7 stations[17] eth0
+ROUTE satellite[19] 8 stations[18] eth0
+ROUTE satellite[20] 1 stations[11] eth1
+ROUTE satellite[20] 4 stations[14] eth1
+ROUTE satellite[20] 7 stations[17] eth0
+ROUTE satellite[20] 8 stations[18] eth0
+ROUTE satellite[21] 6 stations[16] eth1
+ROUTE satellite[21] 7 stations[17] eth0
+ROUTE satellite[21] 8 stations[18] eth0
+ROUTE satellite[21] 9 stations[19] eth1
+ROUTE satellite[22] 7 stations[17] eth1
+ROUTE satellite[22] 8 stations[18] eth1
+ROUTE satellite[23] 2 stations[12] eth1
+ROUTE satellite[23] 5 stations[15] eth1
+ROUTE satellite[23] 11 stations[21] eth1
+ROUTE satellite[24] 10 stations[20] eth1
+ROUTE satellite[25] 3 stations[13] eth1
+ROUTE satellite[26] 1 stations[11] eth1
+ROUTE satellite[26] 4 stations[14] eth1
+ROUTE satellite[27] 6 stations[16] eth4
+ROUTE satellite[27] 9 stations[19] eth1
+ROUTE satellite[28] 7 stations[17] eth4
+ROUTE satellite[28] 8 stations[18] eth1
+ROUTE satellite[29] 2 stations[12] eth1
+ROUTE satellite[29] 5 stations[15] eth1
+ROUTE satellite[29] 11 stations[21] eth1
+ROUTE satellite[30] 3 stations[13] eth4
+ROUTE satellite[30] 10 stations[20] eth0
+ROUTE satellite[31] 3 stations[13] eth2
+ROUTE satellite[31] 10 stations[20] eth0
+ROUTE satellite[31] 11 stations[21] eth1
+ROUTE satellite[32] 3 stations[13] eth2
+ROUTE satellite[32] 10 stations[20] eth1
+ROUTE satellite[32] 11 stations[21] eth2
+ROUTE satellite[33] 1 stations[11] eth1
+ROUTE satellite[33] 4 stations[14] eth1
+ROUTE satellite[33] 11 stations[21] eth2
+ROUTE satellite[34] 9 stations[19] eth4
+ROUTE satellite[34] 11 stations[21] eth2
+ROUTE satellite[35] 8 stations[18] eth1
+ROUTE satellite[35] 11 stations[21] eth2
+ROUTE satellite[36] 2 stations[12] eth1
+ROUTE satellite[36] 5 stations[15] eth1
+ROUTE satellite[36] 11 stations[21] eth2
+ROUTE satellite[37] 2 stations[12] eth4
+ROUTE satellite[37] 5 stations[15] eth4
+ROUTE satellite[37] 11 stations[21] eth4
+ROUTE satellite[38] 2 stations[12] eth2
+ROUTE satellite[38] 5 stations[15] eth2
+ROUTE satellite[38] 11 stations[21] eth2
+ROUTE satellite[39] 2 stations[12] eth2
+ROUTE satellite[39] 5 stations[15] eth2
+ROUTE satellite[39] 10 stations[20] eth0
+ROUTE satellite[40] 1 stations[11] eth4
+ROUTE satellite[40] 2 stations[12] eth2
+ROUTE satellite[40] 4 stations[14] eth4
+ROUTE satellite[40] 5 stations[15] eth2
+ROUTE satellite[40] 10 stations[20] eth4
+ROUTE satellite[41] 2 stations[12] eth2
+ROUTE satellite[41] 5 stations[15] eth2
+ROUTE satellite[42] 2 stations[12] eth2
+ROUTE satellite[42] 5 stations[15] eth2
+ROUTE satellite[42] 8 stations[18] eth4
+ROUTE satellite[43] 2 stations[12] eth2
+ROUTE satellite[43] 5 stations[15] eth2
+WINDOWS 0 satellite[0] eth0 0
+WINDOWS 0 satellite[0] eth1 0
+WINDOWS 0 satellite[0] eth2 0
+WINDOWS 0 satellite[0] eth3 0
+WINDOWS 0 satellite[1] eth0 0
+WINDOWS 0 satellite[1] eth1 0
+WINDOWS 0 satellite[1] eth2 0
+WINDOWS 0 satellite[1] eth3 0
+WINDOWS 0 satellite[2] eth0 0
+WINDOWS 0 satellite[2] eth1 0
+WINDOWS 0 satellite[2] eth2 0
+WINDOWS 0 satellite[2] eth3 0
+WINDOWS 0 satellite[3] eth0 0
+WINDOWS 0 satellite[3] eth1 0
+WINDOWS 0 satellite[3] eth2 0
+WINDOWS 0 satellite[3] eth3 0
+WINDOWS 0 satellite[4] eth0 0
+WINDOWS 0 satellite[4] eth1 0
+WINDOWS 0 satellite[4] eth2 0
+WINDOWS 0 satellite[4] eth3 0
+WINDOWS 0 satellite[5] eth0 0
+WINDOWS 0 satellite[5] eth1 5 1640 1660 7640 7660 13640 13660 19640 19660 25640 25660
+WINDOWS 0 satellite[5] eth2 0
+WINDOWS 0 satellite[5] eth3 0
+WINDOWS 0 satellite[6] eth0 0
+WINDOWS 0 satellite[6] eth1 6 1640 1660 6640 6660 11640 11660 16640 16660 21640 21660 26640 26660
+WINDOWS 0 satellite[6] eth2 0
+WINDOWS 0 satellite[6] eth3 0
+WINDOWS 0 satellite[7] eth0 0
+WINDOWS 0 satellite[7] eth1 0
+WINDOWS 0 satellite[7] eth2 0
+WINDOWS 0 satellite[7] eth3 0
+WINDOWS 0 satellite[8] eth0 0
+WINDOWS 0 satellite[8] eth1 0
+WINDOWS 0 satellite[8] eth2 0
+WINDOWS 0 satellite[8] eth3 0
+WINDOWS 0 satellite[9] eth0 0
+WINDOWS 0 satellite[9] eth1 0
+WINDOWS 0 satellite[9] eth2 0
+WINDOWS 0 satellite[9] eth3 0
+WINDOWS 0 satellite[10] eth0 0
+WINDOWS 0 satellite[10] eth1 0
+WINDOWS 0 satellite[10] eth2 0
+WINDOWS 0 satellite[10] eth3 0
+WINDOWS 0 satellite[11] eth0 0
+WINDOWS 0 satellite[11] eth1 5 4120 4140 10120 10140 16120 16140 22120 22140 28120 28140
+WINDOWS 0 satellite[11] eth2 0
+WINDOWS 0 satellite[11] eth3 0
+WINDOWS 0 satellite[12] eth0 0
+WINDOWS 0 satellite[12] eth1 6 4540 4560 9540 9560 14540 14560 19540 19560 24540 24560 29540 29560
+WINDOWS 0 satellite[12] eth2 0
+WINDOWS 0 satellite[12] eth3 0
+WINDOWS 0 satellite[13] eth0 0
+WINDOWS 0 satellite[13] eth1 0
+WINDOWS 0 satellite[13] eth2 0
+WINDOWS 0 satellite[13] eth3 0
+WINDOWS 0 satellite[14] eth0 0
+WINDOWS 0 satellite[14] eth1 0
+WINDOWS 0 satellite[14] eth2 0
+WINDOWS 0 satellite[14] eth3 0
+WINDOWS 0 satellite[15] eth0 0
+WINDOWS 0 satellite[15] eth1 0
+WINDOWS 0 satellite[15] eth2 0
+WINDOWS 0 satellite[15] eth3 0
+WINDOWS 0 satellite[16] eth0 0
+WINDOWS 0 satellite[16] eth1 5 560 580 6560 6580 12560 12580 18560 18580 24560 24580
+WINDOWS 0 satellite[16] eth2 0
+WINDOWS 0 satellite[16] eth3 0
+WINDOWS 0 satellite[17] eth0 0
+WINDOWS 0 satellite[17] eth1 6 2420 2440 7420 7440 12420 12440 17420 17440 22420 22440 27420 27440
+WINDOWS 0 satellite[17] eth2 0
+WINDOWS 0 satellite[17] eth3 0
+WINDOWS 0 satellite[18] eth0 0
+WINDOWS 0 satellite[18] eth1 0
+WINDOWS 0 satellite[18] eth2 0
+WINDOWS 0 satellite[18] eth3 0
+WINDOWS 0 satellite[19] eth0 0
+WINDOWS 0 satellite[19] eth1 0
+WINDOWS 0 satellite[19] eth2 0
+WINDOWS 0 satellite[19] eth3 0
+WINDOWS 0 satellite[20] eth0 0
+WINDOWS 0 satellite[20] eth1 0
+WINDOWS 0 satellite[20] eth2 0
+WINDOWS 0 satellite[20] eth3 0
+WINDOWS 0 satellite[21] eth0 0
+WINDOWS 0 satellite[21] eth1 0
+WINDOWS 0 satellite[21] eth2 0
+WINDOWS 0 satellite[21] eth3 0
+WINDOWS 0 satellite[22] eth0 0
+WINDOWS 0 satellite[22] eth1 0
+WINDOWS 0 satellite[22] eth2 0
+WINDOWS 0 satellite[22] eth3 0
+WINDOWS 0 satellite[23] eth0 0
+WINDOWS 0 satellite[23] eth1 5 2960 2980 8960 8980 14960 14980 20960 20980 26960 26980
+WINDOWS 0 satellite[23] eth2 0
+WINDOWS 0 satellite[23] eth3 0
+WINDOWS 0 satellite[24] eth0 0
+WINDOWS 0 satellite[24] eth1 6 260 280 5260 5280 10260 10280 15260 15280 20260 20280 25260 25280
+WINDOWS 0 satellite[24] eth2 0
+WINDOWS 0 satellite[24] eth3 0
+WINDOWS 0 satellite[25] eth0 0
+WINDOWS 0 satellite[25] eth1 0
+WINDOWS 0 satellite[25] eth2 0
+WINDOWS 0 satellite[25] eth3 0
+WINDOWS 0 satellite[26] eth0 0
+WINDOWS 0 satellite[26] eth1 0
+WINDOWS 0 satellite[26] eth2 0
+WINDOWS 0 satellite[26] eth3 0
+WINDOWS 0 satellite[27] eth0 0
+WINDOWS 0 satellite[27] eth1 0
+WINDOWS 0 satellite[27] eth2 0
+WINDOWS 0 satellite[27] eth3 0
+WINDOWS 0 satellite[28] eth0 0
+WINDOWS 0 satellite[28] eth1 0
+WINDOWS 0 satellite[28] eth2 0
+WINDOWS 0 satellite[28] eth3 0
+WINDOWS 0 satellite[29] eth0 0
+WINDOWS 0 satellite[29] eth1 5 5340 5360 11340 11360 17340 17360 23340 23360 29340 29360
+WINDOWS 0 satellite[29] eth2 0
+WINDOWS 0 satellite[29] eth3 0
+WINDOWS 0 satellite[30] eth0 6 3080 3100 8080 8100 13080 13100 18080 18100 23080 23100 28080 28100
+WINDOWS 0 satellite[30] eth1 0
+WINDOWS 0 satellite[30] eth2 0
+WINDOWS 0 satellite[30] eth3 0
+WINDOWS 0 satellite[31] eth0 6 500 520 5500 5520 10500 10520 15500 15520 20500 20520 25500 25520
+WINDOWS 0 satellite[31] eth1 5 1760 1780 7760 7780 13760 13780 19760 19780 25760 25780
+WINDOWS 0 satellite[31] eth2 0
+WINDOWS 0 satellite[31] eth3 0
+WINDOWS 0 satellite[32] eth0 0
+WINDOWS 0 satellite[32] eth1 6 2900 2920 7900 7920 12900 12920 17900 17920 22900 22920 27900 27920
+WINDOWS 0 satellite[32] eth2 5 5340 5360 11340 11360 17340 17360 23340 23360 29340 29360
+WINDOWS 0 satellite[32] eth3 0
+WINDOWS 0 satellite[33] eth0 0
+WINDOWS 0 satellite[33] eth1 0
+WINDOWS 0 satellite[33] eth2 5 2920 2940 8920 8940 14920 14940 20920 20940 26920 26940
+WINDOWS 0 satellite[33] eth3 0
+WINDOWS 0 satellite[34] eth0 0
+WINDOWS 0 satellite[34] eth1 0
+WINDOWS 0 satellite[34] eth2 5 520 540 6520 6540 12520 12540 18520 18540 24520 24540
+WINDOWS 0 satellite[34] eth3 0
+WINDOWS 0 satellite[35] eth0 0
+WINDOWS 0 satellite[35] eth1 0
+WINDOWS 0 satellite[35] eth2 5 4100 4120 10100 10120 16100 16120 22100 22120 28100 28120
+WINDOWS 0 satellite[35] eth3 0
+WINDOWS 0 satellite[36] eth0 0
+WINDOWS 0 satellite[36] eth1 0
+WINDOWS 0 satellite[36] eth2 5 1700 1720 7700 7720 13700 13720 19700 19720 25700 25720
+WINDOWS 0 satellite[36] eth3 0
+WINDOWS 0 satellite[37] eth0 0
+WINDOWS 0 satellite[37] eth1 0
+WINDOWS 0 satellite[37] eth2 0
+WINDOWS 0 satellite[37] eth3 0
+WINDOWS 0 satellite[38] eth0 0
+WINDOWS 0 satellite[38] eth1 0
+WINDOWS 0 satellite[38] eth2 5 4480 4500 10480 10500 16480 16500 22480 22500 28480 28500
+WINDOWS 0 satellite[38] eth3 0
+WINDOWS 0 satellite[39] eth0 6 540 560 5540 5560 10540 10560 15540 15560 20540 20560 25540 25560
+WINDOWS 0 satellite[39] eth1 0
+WINDOWS 0 satellite[39] eth2 0
+WINDOWS 0 satellite[39] eth3 0
+WINDOWS 0 satellite[40] eth0 0
+WINDOWS 0 satellite[40] eth1 0
+WINDOWS 0 satellite[40] eth2 0
+WINDOWS 0 satellite[40] eth3 0
+WINDOWS 0 satellite[41] eth0 0
+WINDOWS 0 satellite[41] eth1 0
+WINDOWS 0 satellite[41] eth2 0
+WINDOWS 0 satellite[41] eth3 0
+WINDOWS 0 satellite[42] eth0 0
+WINDOWS 0 satellite[42] eth1 0
+WINDOWS 0 satellite[42] eth2 0
+WINDOWS 0 satellite[42] eth3 0
+WINDOWS 0 satellite[43] eth0 0
+WINDOWS 0 satellite[43] eth1 0
+WINDOWS 0 satellite[43] eth2 0
+WINDOWS 0 satellite[43] eth3 0
+WINDOWS 1 satellite[0] eth0 0
+WINDOWS 1 satellite[0] eth1 0
+WINDOWS 1 satellite[0] eth2 0
+WINDOWS 1 satellite[0] eth3 0
+WINDOWS 1 satellite[1] eth0 0
+WINDOWS 1 satellite[1] eth1 0
+WINDOWS 1 satellite[1] eth2 0
+WINDOWS 1 satellite[1] eth3 0
+WINDOWS 1 satellite[2] eth0 0
+WINDOWS 1 satellite[2] eth1 0
+WINDOWS 1 satellite[2] eth2 0
+WINDOWS 1 satellite[2] eth3 0
+WINDOWS 1 satellite[3] eth0 0
+WINDOWS 1 satellite[3] eth1 0
+WINDOWS 1 satellite[3] eth2 0
+WINDOWS 1 satellite[3] eth3 0
+WINDOWS 1 satellite[4] eth0 0
+WINDOWS 1 satellite[4] eth1 0
+WINDOWS 1 satellite[4] eth2 0
+WINDOWS 1 satellite[4] eth3 0
+WINDOWS 1 satellite[5] eth0 0
+WINDOWS 1 satellite[5] eth1 5 1640 1660 7640 7660 13640 13660 19640 19660 25640 25660
+WINDOWS 1 satellite[5] eth2 0
+WINDOWS 1 satellite[5] eth3 0
+WINDOWS 1 satellite[6] eth0 0
+WINDOWS 1 satellite[6] eth1 6 1640 1660 6640 6660 11640 11660 16640 16660 21640 21660 26640 26660
+WINDOWS 1 satellite[6] eth2 0
+WINDOWS 1 satellite[6] eth3 0
+WINDOWS 1 satellite[7] eth0 0
+WINDOWS 1 satellite[7] eth1 0
+WINDOWS 1 satellite[7] eth2 0
+WINDOWS 1 satellite[7] eth3 0
+WINDOWS 1 satellite[8] eth0 0
+WINDOWS 1 satellite[8] eth1 0
+WINDOWS 1 satellite[8] eth2 0
+WINDOWS 1 satellite[8] eth3 0
+WINDOWS 1 satellite[9] eth0 0
+WINDOWS 1 satellite[9] eth1 0
+WINDOWS 1 satellite[9] eth2 0
+WINDOWS 1 satellite[9] eth3 0
+WINDOWS 1 satellite[10] eth0 0
+WINDOWS 1 satellite[10] eth1 0
+WINDOWS 1 satellite[10] eth2 0
+WINDOWS 1 satellite[10] eth3 0
+WINDOWS 1 satellite[11] eth0 0
+WINDOWS 1 satellite[11] eth1 5 4120 4140 10120 10140 16120 16140 22120 22140 28120 28140
+WINDOWS 1 satellite[11] eth2 0
+WINDOWS 1 satellite[11] eth3 0
+WINDOWS 1 satellite[12] eth0 0
+WINDOWS 1 satellite[12] eth1 6 4540 4560 9540 9560 14540 14560 19540 19560 24540 24560 29540 29560
+WINDOWS 1 satellite[12] eth2 0
+WINDOWS 1 satellite[12] eth3 0
+WINDOWS 1 satellite[13] eth0 0
+WINDOWS 1 satellite[13] eth1 0
+WINDOWS 1 satellite[13] eth2 0
+WINDOWS 1 satellite[13] eth3 0
+WINDOWS 1 satellite[14] eth0 0
+WINDOWS 1 satellite[14] eth1 0
+WINDOWS 1 satellite[14] eth2 0
+WINDOWS 1 satellite[14] eth3 0
+WINDOWS 1 satellite[15] eth0 0
+WINDOWS 1 satellite[15] eth1 0
+WINDOWS 1 satellite[15] eth2 0
+WINDOWS 1 satellite[15] eth3 0
+WINDOWS 1 satellite[16] eth0 0
+WINDOWS 1 satellite[16] eth1 5 560 580 6560 6580 12560 12580 18560 18580 24560 24580
+WINDOWS 1 satellite[16] eth2 0
+WINDOWS 1 satellite[16] eth3 0
+WINDOWS 1 satellite[17] eth0 0
+WINDOWS 1 satellite[17] eth1 6 2420 2440 7420 7440 12420 12440 17420 17440 22420 22440 27420 27440
+WINDOWS 1 satellite[17] eth2 0
+WINDOWS 1 satellite[17] eth3 0
+WINDOWS 1 satellite[18] eth0 0
+WINDOWS 1 satellite[18] eth1 0
+WINDOWS 1 satellite[18] eth2 0
+WINDOWS 1 satellite[18] eth3 0
+WINDOWS 1 satellite[19] eth0 0
+WINDOWS 1 satellite[19] eth1 0
+WINDOWS 1 satellite[19] eth2 0
+WINDOWS 1 satellite[19] eth3 0
+WINDOWS 1 satellite[20] eth0 0
+WINDOWS 1 satellite[20] eth1 0
+WINDOWS 1 satellite[20] eth2 0
+WINDOWS 1 satellite[20] eth3 0
+WINDOWS 1 satellite[21] eth0 0
+WINDOWS 1 satellite[21] eth1 0
+WINDOWS 1 satellite[21] eth2 0
+WINDOWS 1 satellite[21] eth3 0
+WINDOWS 1 satellite[22] eth0 0
+WINDOWS 1 satellite[22] eth1 0
+WINDOWS 1 satellite[22] eth2 0
+WINDOWS 1 satellite[22] eth3 0
+WINDOWS 1 satellite[23] eth0 0
+WINDOWS 1 satellite[23] eth1 5 2960 2980 8960 8980 14960 14980 20960 20980 26960 26980
+WINDOWS 1 satellite[23] eth2 0
+WINDOWS 1 satellite[23] eth3 0
+WINDOWS 1 satellite[24] eth0 0
+WINDOWS 1 satellite[24] eth1 6 260 280 5260 5280 10260 10280 15260 15280 20260 20280 25260 25280
+WINDOWS 1 satellite[24] eth2 0
+WINDOWS 1 satellite[24] eth3 0
+WINDOWS 1 satellite[25] eth0 0
+WINDOWS 1 satellite[25] eth1 0
+WINDOWS 1 satellite[25] eth2 0
+WINDOWS 1 satellite[25] eth3 0
+WINDOWS 1 satellite[26] eth0 0
+WINDOWS 1 satellite[26] eth1 0
+WINDOWS 1 satellite[26] eth2 0
+WINDOWS 1 satellite[26] eth3 0
+WINDOWS 1 satellite[27] eth0 0
+WINDOWS 1 satellite[27] eth1 0
+WINDOWS 1 satellite[27] eth2 0
+WINDOWS 1 satellite[27] eth3 0
+WINDOWS 1 satellite[28] eth0 0
+WINDOWS 1 satellite[28] eth1 0
+WINDOWS 1 satellite[28] eth2 0
+WINDOWS 1 satellite[28] eth3 0
+WINDOWS 1 satellite[29] eth0 0
+WINDOWS 1 satellite[29] eth1 5 5340 5360 11340 11360 17340 17360 23340 23360 29340 29360
+WINDOWS 1 satellite[29] eth2 0
+WINDOWS 1 satellite[29] eth3 0
+WINDOWS 1 satellite[30] eth0 6 3080 3100 8080 8100 13080 13100 18080 18100 23080 23100 28080 28100
+WINDOWS 1 satellite[30] eth1 0
+WINDOWS 1 satellite[30] eth2 0
+WINDOWS 1 satellite[30] eth3 0
+WINDOWS 1 satellite[31] eth0 6 500 520 5500 5520 10500 10520 15500 15520 20500 20520 25500 25520
+WINDOWS 1 satellite[31] eth1 5 1760 1780 7760 7780 13760 13780 19760 19780 25760 25780
+WINDOWS 1 satellite[31] eth2 0
+WINDOWS 1 satellite[31] eth3 0
+WINDOWS 1 satellite[32] eth0 0
+WINDOWS 1 satellite[32] eth1 6 2900 2920 7900 7920 12900 12920 17900 17920 22900 22920 27900 27920
+WINDOWS 1 satellite[32] eth2 5 5340 5360 11340 11360 17340 17360 23340 23360 29340 29360
+WINDOWS 1 satellite[32] eth3 0
+WINDOWS 1 satellite[33] eth0 0
+WINDOWS 1 satellite[33] eth1 0
+WINDOWS 1 satellite[33] eth2 5 2920 2940 8920 8940 14920 14940 20920 20940 26920 26940
+WINDOWS 1 satellite[33] eth3 0
+WINDOWS 1 satellite[34] eth0 0
+WINDOWS 1 satellite[34] eth1 0
+WINDOWS 1 satellite[34] eth2 5 520 540 6520 6540 12520 12540 18520 18540 24520 24540
+WINDOWS 1 satellite[34] eth3 0
+WINDOWS 1 satellite[35] eth0 0
+WINDOWS 1 satellite[35] eth1 0
+WINDOWS 1 satellite[35] eth2 5 4100 4120 10100 10120 16100 16120 22100 22120 28100 28120
+WINDOWS 1 satellite[35] eth3 0
+WINDOWS 1 satellite[36] eth0 0
+WINDOWS 1 satellite[36] eth1 0
+WINDOWS 1 satellite[36] eth2 5 1700 1720 7700 7720 13700 13720 19700 19720 25700 25720
+WINDOWS 1 satellite[36] eth3 0
+WINDOWS 1 satellite[37] eth0 0
+WINDOWS 1 satellite[37] eth1 0
+WINDOWS 1 satellite[37] eth2 0
+WINDOWS 1 satellite[37] eth3 0
+WINDOWS 1 satellite[38] eth0 0
+WINDOWS 1 satellite[38] eth1 0
+WINDOWS 1 satellite[38] eth2 5 4480 4500 10480 10500 16480 16500 22480 22500 28480 28500
+WINDOWS 1 satellite[38] eth3 0
+WINDOWS 1 satellite[39] eth0 6 540 560 5540 5560 10540 10560 15540 15560 20540 20560 25540 25560
+WINDOWS 1 satellite[39] eth1 0
+WINDOWS 1 satellite[39] eth2 0
+WINDOWS 1 satellite[39] eth3 0
+WINDOWS 1 satellite[40] eth0 0
+WINDOWS 1 satellite[40] eth1 0
+WINDOWS 1 satellite[40] eth2 0
+WINDOWS 1 satellite[40] eth3 0
+WINDOWS 1 satellite[41] eth0 0
+WINDOWS 1 satellite[41] eth1 0
+WINDOWS 1 satellite[41] eth2 0
+WINDOWS 1 satellite[41] eth3 0
+WINDOWS 1 satellite[42] eth0 0
+WINDOWS 1 satellite[42] eth1 0
+WINDOWS 1 satellite[42] eth2 0
+WINDOWS 1 satellite[42] eth3 0
+WINDOWS 1 satellite[43] eth0 0
+WINDOWS 1 satellite[43] eth1 0
+WINDOWS 1 satellite[43] eth2 0
+WINDOWS 1 satellite[43] eth3 0
+WINDOWS 2 satellite[0] eth0 0
+WINDOWS 2 satellite[0] eth1 0
+WINDOWS 2 satellite[0] eth2 0
+WINDOWS 2 satellite[0] eth3 0
+WINDOWS 2 satellite[1] eth0 0
+WINDOWS 2 satellite[1] eth1 0
+WINDOWS 2 satellite[1] eth2 0
+WINDOWS 2 satellite[1] eth3 0
+WINDOWS 2 satellite[2] eth0 0
+WINDOWS 2 satellite[2] eth1 0
+WINDOWS 2 satellite[2] eth2 0
+WINDOWS 2 satellite[2] eth3 0
+WINDOWS 2 satellite[3] eth0 0
+WINDOWS 2 satellite[3] eth1 0
+WINDOWS 2 satellite[3] eth2 0
+WINDOWS 2 satellite[3] eth3 0
+WINDOWS 2 satellite[4] eth0 0
+WINDOWS 2 satellite[4] eth1 0
+WINDOWS 2 satellite[4] eth2 0
+WINDOWS 2 satellite[4] eth3 0
+WINDOWS 2 satellite[5] eth0 0
+WINDOWS 2 satellite[5] eth1 5 1800 1820 7800 7820 13800 13820 19800 19820 25800 25820
+WINDOWS 2 satellite[5] eth2 0
+WINDOWS 2 satellite[5] eth3 0
+WINDOWS 2 satellite[6] eth0 0
+WINDOWS 2 satellite[6] eth1 6 1800 1820 6800 6820 11800 11820 16800 16820 21800 21820 26800 26820
+WINDOWS 2 satellite[6] eth2 0
+WINDOWS 2 satellite[6] eth3 0
+WINDOWS 2 satellite[7] eth0 0
+WINDOWS 2 satellite[7] eth1 0
+WINDOWS 2 satellite[7] eth2 0
+WINDOWS 2 satellite[7] eth3 0
+WINDOWS 2 satellite[8] eth0 0
+WINDOWS 2 satellite[8] eth1 0
+WINDOWS 2 satellite[8] eth2 0
+WINDOWS 2 satellite[8] eth3 0
+WINDOWS 2 satellite[9] eth0 0
+WINDOWS 2 satellite[9] eth1 0
+WINDOWS 2 satellite[9] eth2 0
+WINDOWS 2 satellite[9] eth3 0
+WINDOWS 2 satellite[10] eth0 0
+WINDOWS 2 satellite[10] eth1 0
+WINDOWS 2 satellite[10] eth2 0
+WINDOWS 2 satellite[10] eth3 0
+WINDOWS 2 satellite[11] eth0 0
+WINDOWS 2 satellite[11] eth1 5 4240 4260 10240 10260 16240 16260 22240 22260 28240 28260
+WINDOWS 2 satellite[11] eth2 0
+WINDOWS 2 satellite[11] eth3 0
+WINDOWS 2 satellite[12] eth0 0
+WINDOWS 2 satellite[12] eth1 6 4660 4680 9660 9680 14660 14680 19660 19680 24660 24680 29660 29680
+WINDOWS 2 satellite[12] eth2 0
+WINDOWS 2 satellite[12] eth3 0
+WINDOWS 2 satellite[13] eth0 0
+WINDOWS 2 satellite[13] eth1 0
+WINDOWS 2 satellite[13] eth2 0
+WINDOWS 2 satellite[13] eth3 0
+WINDOWS 2 satellite[14] eth0 0
+WINDOWS 2 satellite[14] eth1 0
+WINDOWS 2 satellite[14] eth2 0
+WINDOWS 2 satellite[14] eth3 0
+WINDOWS 2 satellite[15] eth0 0
+WINDOWS 2 satellite[15] eth1 0
+WINDOWS 2 satellite[15] eth2 0
+WINDOWS 2 satellite[15] eth3 0
+WINDOWS 2 satellite[16] eth0 0
+WINDOWS 2 satellite[16] eth1 5 640 660 6640 6660 12640 12660 18640 18660 24640 24660
+WINDOWS 2 satellite[16] eth2 0
+WINDOWS 2 satellite[16] eth3 0
+WINDOWS 2 satellite[17] eth0 0
+WINDOWS 2 satellite[17] eth1 6 2520 2540 7520 7540 12520 12540 17520 17540 22520 22540 27520 27540
+WINDOWS 2 satellite[17] eth2 0
+WINDOWS 2 satellite[17] eth3 0
+WINDOWS 2 satellite[18] eth0 0
+WINDOWS 2 satellite[18] eth1 0
+WINDOWS 2 satellite[18] eth2 0
+WINDOWS 2 satellite[18] eth3 0
+WINDOWS 2 satellite[19] eth0 0
+WINDOWS 2 satellite[19] eth1 0
+WINDOWS 2 satellite[19] eth2 0
+WINDOWS 2 satellite[19] eth3 0
+WINDOWS 2 satellite[20] eth0 0
+WINDOWS 2 satellite[20] eth1 0
+WINDOWS 2 satellite[20] eth2 0
+WINDOWS 2 satellite[20] eth3 0
+WINDOWS 2 satellite[21] eth0 0
+WINDOWS 2 satellite[21] eth1 0
+WINDOWS 2 satellite[21] eth2 0
+WINDOWS 2 satellite[21] eth3 0
+WINDOWS 2 satellite[22] eth0 0
+WINDOWS 2 satellite[22] eth1 0
+WINDOWS 2 satellite[22] eth2 0
+WINDOWS 2 satellite[22] eth3 0
+WINDOWS 2 satellite[23] eth0 0
+WINDOWS 2 satellite[23] eth1 5 3040 3060 9040 9060 15040 15060 21040 21060 27040 27060
+WINDOWS 2 satellite[23] eth2 0
+WINDOWS 2 satellite[23] eth3 0
+WINDOWS 2 satellite[24] eth0 0
+WINDOWS 2 satellite[24] eth1 6 340 360 5340 5360 10340 10360 15340 15360 20340 20360 25340 25360
+WINDOWS 2 satellite[24] eth2 0
+WINDOWS 2 satellite[24] eth3 0
+WINDOWS 2 satellite[25] eth0 0
+WINDOWS 2 satellite[25] eth1 0
+WINDOWS 2 satellite[25] eth2 0
+WINDOWS 2 satellite[25] eth3 0
+WINDOWS 2 satellite[26] eth0 0
+WINDOWS 2 satellite[26] eth1 0
+WINDOWS 2 satellite[26] eth2 0
+WINDOWS 2 satellite[26] eth3 0
+WINDOWS 2 satellite[27] eth0 0
+WINDOWS 2 satellite[27] eth1 0
+WINDOWS 2 satellite[27] eth2 0
+WINDOWS 2 satellite[27] eth3 0
+WINDOWS 2 satellite[28] eth0 0
+WINDOWS 2 satellite[28] eth1 0
+WINDOWS 2 satellite[28] eth2 0
+WINDOWS 2 satellite[28] eth3 0
+WINDOWS 2 satellite[29] eth0 0
+WINDOWS 2 satellite[29] eth1 5 5380 5400 11380 11400 17380 17400 23380 23400 29380 29400
+WINDOWS 2 satellite[29] eth2 0
+WINDOWS 2 satellite[29] eth3 0
+WINDOWS 2 satellite[30] eth0 6 3140 3160 8140 8160 13140 13160 18140 18160 23140 23160 28140 28160
+WINDOWS 2 satellite[30] eth1 0
+WINDOWS 2 satellite[30] eth2 0
+WINDOWS 2 satellite[30] eth3 0
+WINDOWS 2 satellite[31] eth0 6 560 580 5560 5580 10560 10580 15560 15580 20560 20580 25560 25580
+WINDOWS 2 satellite[31] eth1 5 1780 1800 7780 7800 13780 13800 19780 19800 25780 25800
+WINDOWS 2 satellite[31] eth2 0
+WINDOWS 2 satellite[31] eth3 0
+WINDOWS 2 satellite[32] eth0 0
+WINDOWS 2 satellite[32] eth1 6 2960 2980 7960 7980 12960 12980 17960 17980 22960 22980 27960 27980
+WINDOWS 2 satellite[32] eth2 5 5360 5380 11360 11380 17360 17380 23360 23380 29360 29380
+WINDOWS 2 satellite[32] eth3 0
+WINDOWS 2 satellite[33] eth0 0
+WINDOWS 2 satellite[33] eth1 0
+WINDOWS 2 satellite[33] eth2 5 2960 2980 8960 8980 14960 14980 20960 20980 26960 26980
+WINDOWS 2 satellite[33] eth3 0
+WINDOWS 2 satellite[34] eth0 0
+WINDOWS 2 satellite[34] eth1 0
+WINDOWS 2 satellite[34] eth2 5 540 560 6540 6560 12540 12560 18540 18560 24540 24560
+WINDOWS 2 satellite[34] eth3 0
+WINDOWS 2 satellite[35] eth0 0
+WINDOWS 2 satellite[35] eth1 0
+WINDOWS 2 satellite[35] eth2 5 4140 4160 10140 10160 16140 16160 22140 22160 28140 28160
+WINDOWS 2 satellite[35] eth3 0
+WINDOWS 2 satellite[36] eth0 0
+WINDOWS 2 satellite[36] eth1 0
+WINDOWS 2 satellite[36] eth2 5 1720 1740 7720 7740 13720 13740 19720 19740 25720 25740
+WINDOWS 2 satellite[36] eth3 0
+WINDOWS 2 satellite[37] eth0 0
+WINDOWS 2 satellite[37] eth1 0
+WINDOWS 2 satellite[37] eth2 0
+WINDOWS 2 satellite[37] eth3 0
+WINDOWS 2 satellite[38] eth0 0
+WINDOWS 2 satellite[38] eth1 0
+WINDOWS 2 satellite[38] eth2 5 4480 4500 10480 10500 16480 16500 22480 22500 28480 28500
+WINDOWS 2 satellite[38] eth3 0
+WINDOWS 2 satellite[39] eth0 6 580 600 5580 5600 10580 10600 15580 15600 20580 20600 25580 25600
+WINDOWS 2 satellite[39] eth1 0
+WINDOWS 2 satellite[39] eth2 0
+WINDOWS 2 satellite[39] eth3 0
+WINDOWS 2 satellite[40] eth0 0
+WINDOWS 2 satellite[40] eth1 0
+WINDOWS 2 satellite[40] eth2 0
+WINDOWS 2 satellite[40] eth3 0
+WINDOWS 2 satellite[41] eth0 0
+WINDOWS 2 satellite[41] eth1 0
+WINDOWS 2 satellite[41] eth2 0
+WINDOWS 2 satellite[41] eth3 0
+WINDOWS 2 satellite[42] eth0 0
+WINDOWS 2 satellite[42] eth1 0
+WINDOWS 2 satellite[42] eth2 0
+WINDOWS 2 satellite[42] eth3 0
+WINDOWS 2 satellite[43] eth0 0
+WINDOWS 2 satellite[43] eth1 0
+WINDOWS 2 satellite[43] eth2 0
+WINDOWS 2 satellite[43] eth3 0
+WINDOWS 3 satellite[0] eth0 0
+WINDOWS 3 satellite[0] eth1 0
+WINDOWS 3 satellite[0] eth2 0
+WINDOWS 3 satellite[0] eth3 0
+WINDOWS 3 satellite[1] eth0 0
+WINDOWS 3 satellite[1] eth1 0
+WINDOWS 3 satellite[1] eth2 0
+WINDOWS 3 satellite[1] eth3 0
+WINDOWS 3 satellite[2] eth0 0
+WINDOWS 3 satellite[2] eth1 0
+WINDOWS 3 satellite[2] eth2 0
+WINDOWS 3 satellite[2] eth3 0
+WINDOWS 3 satellite[3] eth0 0
+WINDOWS 3 satellite[3] eth1 0
+WINDOWS 3 satellite[3] eth2 0
+WINDOWS 3 satellite[3] eth3 0
+WINDOWS 3 satellite[4] eth0 0
+WINDOWS 3 satellite[4] eth1 0
+WINDOWS 3 satellite[4] eth2 0
+WINDOWS 3 satellite[4] eth3 0
+WINDOWS 3 satellite[5] eth0 0
+WINDOWS 3 satellite[5] eth1 5 1800 1820 7800 7820 13800 13820 19800 19820 25800 25820
+WINDOWS 3 satellite[5] eth2 0
+WINDOWS 3 satellite[5] eth3 0
+WINDOWS 3 satellite[6] eth0 0
+WINDOWS 3 satellite[6] eth1 6 1800 1820 6800 6820 11800 11820 16800 16820 21800 21820 26800 26820
+WINDOWS 3 satellite[6] eth2 0
+WINDOWS 3 satellite[6] eth3 0
+WINDOWS 3 satellite[7] eth0 0
+WINDOWS 3 satellite[7] eth1 0
+WINDOWS 3 satellite[7] eth2 0
+WINDOWS 3 satellite[7] eth3 0
+WINDOWS 3 satellite[8] eth0 0
+WINDOWS 3 satellite[8] eth1 0
+WINDOWS 3 satellite[8] eth2 0
+WINDOWS 3 satellite[8] eth3 0
+WINDOWS 3 satellite[9] eth0 0
+WINDOWS 3 satellite[9] eth1 0
+WINDOWS 3 satellite[9] eth2 0
+WINDOWS 3 satellite[9] eth3 0
+WINDOWS 3 satellite[10] eth0 0
+WINDOWS 3 satellite[10] eth1 0
+WINDOWS 3 satellite[10] eth2 0
+WINDOWS 3 satellite[10] eth3 0
+WINDOWS 3 satellite[11] eth0 0
+WINDOWS 3 satellite[11] eth1 5 4240 4260 10240 10260 16240 16260 22240 22260 28240 28260
+WINDOWS 3 satellite[11] eth2 0
+WINDOWS 3 satellite[11] eth3 0
+WINDOWS 3 satellite[12] eth0 0
+WINDOWS 3 satellite[12] eth1 6 4660 4680 9660 9680 14660 14680 19660 19680 24660 24680 29660 29680
+WINDOWS 3 satellite[12] eth2 0
+WINDOWS 3 satellite[12] eth3 0
+WINDOWS 3 satellite[13] eth0 0
+WINDOWS 3 satellite[13] eth1 0
+WINDOWS 3 satellite[13] eth2 0
+WINDOWS 3 satellite[13] eth3 0
+WINDOWS 3 satellite[14] eth0 0
+WINDOWS 3 satellite[14] eth1 0
+WINDOWS 3 satellite[14] eth2 0
+WINDOWS 3 satellite[14] eth3 0
+WINDOWS 3 satellite[15] eth0 0
+WINDOWS 3 satellite[15] eth1 0
+WINDOWS 3 satellite[15] eth2 0
+WINDOWS 3 satellite[15] eth3 0
+WINDOWS 3 satellite[16] eth0 0
+WINDOWS 3 satellite[16] eth1 5 640 660 6640 6660 12640 12660 18640 18660 24640 24660
+WINDOWS 3 satellite[16] eth2 0
+WINDOWS 3 satellite[16] eth3 0
+WINDOWS 3 satellite[17] eth0 0
+WINDOWS 3 satellite[17] eth1 6 2520 2540 7520 7540 12520 12540 17520 17540 22520 22540 27520 27540
+WINDOWS 3 satellite[17] eth2 0
+WINDOWS 3 satellite[17] eth3 0
+WINDOWS 3 satellite[18] eth0 0
+WINDOWS 3 satellite[18] eth1 0
+WINDOWS 3 satellite[18] eth2 0
+WINDOWS 3 satellite[18] eth3 0
+WINDOWS 3 satellite[19] eth0 0
+WINDOWS 3 satellite[19] eth1 0
+WINDOWS 3 satellite[19] eth2 0
+WINDOWS 3 satellite[19] eth3 0
+WINDOWS 3 satellite[20] eth0 0
+WINDOWS 3 satellite[20] eth1 0
+WINDOWS 3 satellite[20] eth2 0
+WINDOWS 3 satellite[20] eth3 0
+WINDOWS 3 satellite[21] eth0 0
+WINDOWS 3 satellite[21] eth1 0
+WINDOWS 3 satellite[21] eth2 0
+WINDOWS 3 satellite[21] eth3 0
+WINDOWS 3 satellite[22] eth0 0
+WINDOWS 3 satellite[22] eth1 0
+WINDOWS 3 satellite[22] eth2 0
+WINDOWS 3 satellite[22] eth3 0
+WINDOWS 3 satellite[23] eth0 0
+WINDOWS 3 satellite[23] eth1 5 3040 3060 9040 9060 15040 15060 21040 21060 27040 27060
+WINDOWS 3 satellite[23] eth2 0
+WINDOWS 3 satellite[23] eth3 0
+WINDOWS 3 satellite[24] eth0 0
+WINDOWS 3 satellite[24] eth1 6 340 360 5340 5360 10340 10360 15340 15360 20340 20360 25340 25360
+WINDOWS 3 satellite[24] eth2 0
+WINDOWS 3 satellite[24] eth3 0
+WINDOWS 3 satellite[25] eth0 0
+WINDOWS 3 satellite[25] eth1 0
+WINDOWS 3 satellite[25] eth2 0
+WINDOWS 3 satellite[25] eth3 0
+WINDOWS 3 satellite[26] eth0 0
+WINDOWS 3 satellite[26] eth1 0
+WINDOWS 3 satellite[26] eth2 0
+WINDOWS 3 satellite[26] eth3 0
+WINDOWS 3 satellite[27] eth0 0
+WINDOWS 3 satellite[27] eth1 0
+WINDOWS 3 satellite[27] eth2 0
+WINDOWS 3 satellite[27] eth3 0
+WINDOWS 3 satellite[28] eth0 0
+WINDOWS 3 satellite[28] eth1 0
+WINDOWS 3 satellite[28] eth2 0
+WINDOWS 3 satellite[28] eth3 0
+WINDOWS 3 satellite[29] eth0 0
+WINDOWS 3 satellite[29] eth1 5 5380 5400 11380 11400 17380 17400 23380 23400 29380 29400
+WINDOWS 3 satellite[29] eth2 0
+WINDOWS 3 satellite[29] eth3 0
+WINDOWS 3 satellite[30] eth0 6 3140 3160 8140 8160 13140 13160 18140 18160 23140 23160 28140 28160
+WINDOWS 3 satellite[30] eth1 0
+WINDOWS 3 satellite[30] eth2 0
+WINDOWS 3 satellite[30] eth3 0
+WINDOWS 3 satellite[31] eth0 6 560 580 5560 5580 10560 10580 15560 15580 20560 20580 25560 25580
+WINDOWS 3 satellite[31] eth1 5 1780 1800 7780 7800 13780 13800 19780 19800 25780 25800
+WINDOWS 3 satellite[31] eth2 0
+WINDOWS 3 satellite[31] eth3 0
+WINDOWS 3 satellite[32] eth0 0
+WINDOWS 3 satellite[32] eth1 6 2960 2980 7960 7980 12960 12980 17960 17980 22960 22980 27960 27980
+WINDOWS 3 satellite[32] eth2 5 5360 5380 11360 11380 17360 17380 23360 23380 29360 29380
+WINDOWS 3 satellite[32] eth3 0
+WINDOWS 3 satellite[33] eth0 0
+WINDOWS 3 satellite[33] eth1 0
+WINDOWS 3 satellite[33] eth2 5 2960 2980 8960 8980 14960 14980 20960 20980 26960 26980
+WINDOWS 3 satellite[33] eth3 0
+WINDOWS 3 satellite[34] eth0 0
+WINDOWS 3 satellite[34] eth1 0
+WINDOWS 3 satellite[34] eth2 5 540 560 6540 6560 12540 12560 18540 18560 24540 24560
+WINDOWS 3 satellite[34] eth3 0
+WINDOWS 3 satellite[35] eth0 0
+WINDOWS 3 satellite[35] eth1 0
+WINDOWS 3 satellite[35] eth2 5 4140 4160 10140 10160 16140 16160 22140 22160 28140 28160
+WINDOWS 3 satellite[35] eth3 0
+WINDOWS 3 satellite[36] eth0 0
+WINDOWS 3 satellite[36] eth1 0
+WINDOWS 3 satellite[36] eth2 5 1720 1740 7720 7740 13720 13740 19720 19740 25720 25740
+WINDOWS 3 satellite[36] eth3 0
+WINDOWS 3 satellite[37] eth0 0
+WINDOWS 3 satellite[37] eth1 0
+WINDOWS 3 satellite[37] eth2 0
+WINDOWS 3 satellite[37] eth3 0
+WINDOWS 3 satellite[38] eth0 0
+WINDOWS 3 satellite[38] eth1 0
+WINDOWS 3 satellite[38] eth2 5 4480 4500 10480 10500 16480 16500 22480 22500 28480 28500
+WINDOWS 3 satellite[38] eth3 0
+WINDOWS 3 satellite[39] eth0 6 580 600 5580 5600 10580 10600 15580 15600 20580 20600 25580 25600
+WINDOWS 3 satellite[39] eth1 0
+WINDOWS 3 satellite[39] eth2 0
+WINDOWS 3 satellite[39] eth3 0
+WINDOWS 3 satellite[40] eth0 0
+WINDOWS 3 satellite[40] eth1 0
+WINDOWS 3 satellite[40] eth2 0
+WINDOWS 3 satellite[40] eth3 0
+WINDOWS 3 satellite[41] eth0 0
+WINDOWS 3 satellite[41] eth1 0
+WINDOWS 3 satellite[41] eth2 0
+WINDOWS 3 satellite[41] eth3 0
+WINDOWS 3 satellite[42] eth0 0
+WINDOWS 3 satellite[42] eth1 0
+WINDOWS 3 satellite[42] eth2 0
+WINDOWS 3 satellite[42] eth3 0
+WINDOWS 3 satellite[43] eth0 0
+WINDOWS 3 satellite[43] eth1 0
+WINDOWS 3 satellite[43] eth2 0
+WINDOWS 3 satellite[43] eth3 0
+END

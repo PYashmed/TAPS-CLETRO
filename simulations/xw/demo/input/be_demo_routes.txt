@@ -1,0 +1,13 @@
+XW_OFFLINE_V1
+CYCLE_US 30000
+SLICE_INTERVAL_S 30
+SLICE_COUNT 2
+QUEUE_STATES 11111111 11111111
+ROUTE satellite[28] 1 stations[1] eth2
+ROUTE satellite[27] 1 stations[1] eth3
+ROUTE satellite[17] 1 stations[1] eth3
+ROUTE satellite[7] 1 stations[1] eth3
+ROUTE satellite[174] 1 stations[1] eth2
+ROUTE satellite[173] 1 stations[1] eth3
+ROUTE satellite[163] 1 stations[1] eth4
+END

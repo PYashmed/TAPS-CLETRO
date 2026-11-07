@@ -1,0 +1,19 @@
+{
+  "config": "BE-Demo",
+  "simulation_time_s": 10,
+  "num_planes": 18,
+  "sats_per_plane": 10,
+  "satellite_count": 180,
+  "flow": 1,
+  "production_interval_s": 1,
+  "packet_length_bytes": 1478,
+  "pcp": 1,
+  "vlan_id": 1,
+  "generated_packets": 11,
+  "received_packets": 10,
+  "unique_received_packets": 10,
+  "min_delay_ms": 120.678,
+  "max_delay_ms": 120.91799999999999,
+  "mean_delay_ms": 120.7961,
+  "delay_range_ms": 0.23999999999999488
+}

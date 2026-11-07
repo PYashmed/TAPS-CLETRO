@@ -1,6 +1,6 @@
-# SatNet3D XW hardware-in-the-loop reproduction package
+# TAPS-CLETRO hardware-in-the-loop reproduction package
 
-SatNet3D implements fine-grained, time-aware forwarding for dynamic LEO satellite networks. It combines orbital motion, time-varying propagation delay, precomputed routing and gate schedules, and a hardware-in-the-loop (HIL) data path in one experiment workflow.
+This project implements fine-grained, time-aware forwarding for dynamic LEO satellite networks. It combines orbital motion, time-varying propagation delay, precomputed routing and gate schedules, and a hardware-in-the-loop (HIL) data path in one experiment workflow.
 
 The package supports the study “Fine-Grained and Time Deterministic Transmission Paradigm for Mega Low Earth Orbit Constellations with Hardware-in-the-Loop Simulation”. It provides six experiment profiles, the corresponding schedule results, packet-level records, analysis scripts and numerical source data for 16 figures and two tables.
 
